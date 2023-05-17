@@ -1,0 +1,55 @@
+/* General styles for the InfoWindow */
+.infowindow-wrap {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+
+.infowindow-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for the image section */
+.infowindow-img {
+    margin-bottom: 10px;
+}
+
+/* Styles for the title section */
+.infowindow-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styles for the body section */
+.infowindow-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.infowindow-desc {
+    text-align: center;
+}
+
+.infowindow-ellipsis {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.infowindow-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.infowindow-link:hover {
+    text-decoration: underline;
+}

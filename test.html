@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+</head>
+<body>
+  <h1>Search</h1>
+  <input type="text" id="search-bar">
+  <button id="search-button">Search</button>
+  <div id="results"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#search-button').on('click', function() {
+        var query = $('#search-bar').val();
+        $.ajax({
+          url: 'https://en.wikipedia.org/w/api.php',
+          data: {
+            action: 'query',
+            prop: 'extracts',
+            titles: query
+          },
+          success: function(response) {
+            var results = response.query.pages;
+            for (var i = 0; i < results.length; i++) {
+              var result = results[i];
+              var title = result.title;
+              var summary = result.extract;
+              $('#results').append(
+                $('<li>').text(title).append(
+                  $('<a>').href('https://en.wikipedia.org/wiki/' + title).text(summary)
+                )
+              );
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
