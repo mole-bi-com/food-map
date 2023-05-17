@@ -1,0 +1,108 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - 경지아리움",
+                "totalResults": "147000",
+                "searchTerms": "경지아리움",
+                "count": 3,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "0340a7d6ac7684d11",
+                "searchType": "image"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - 경지아리움",
+                "totalResults": "147000",
+                "searchTerms": "경지아리움",
+                "count": 3,
+                "startIndex": 4,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "0340a7d6ac7684d11",
+                "searchType": "image"
+            }
+        ]
+    },
+    "context": {
+        "title": "www.example.com"
+    },
+    "searchInformation": {
+        "searchTime": 0.160183,
+        "formattedSearchTime": "0.16",
+        "totalResults": "147000",
+        "formattedTotalResults": "147,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "갤러리두 길동] 길동 경지아리움 전경... - Gallery DOO - 갤러리 두 ...",
+            "htmlTitle": "갤러리두 길동] 길동 <b>경지아리움</b> 전경... - Gallery DOO - 갤러리 두 ...",
+            "link": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=3763372590356271",
+            "displayLink": "m.facebook.com",
+            "snippet": "갤러리두 길동] 길동 경지아리움 전경... - Gallery DOO - 갤러리 두 ...",
+            "htmlSnippet": "갤러리두 길동] 길동 <b>경지아리움</b> 전경... - Gallery DOO - 갤러리 두 ...",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://m.facebook.com/story.php?story_fbid=3763366250356905&id=987549021271989",
+                "height": 580,
+                "width": 773,
+                "byteSize": 86884,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeXQNvDSq3HXPWWRJ_tiz5XBP8SMUr85PnifqKta5jGZFeAnVWyQ3C36o&s",
+                "thumbnailHeight": 107,
+                "thumbnailWidth": 142
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "길동 경지아리움 오피스텔 아파트 분양/임대 : 네이버 블로그",
+            "htmlTitle": "길동 <b>경지아리움</b> 오피스텔 아파트 분양/임대 : 네이버 블로그",
+            "link": "https://mblogthumb-phinf.pstatic.net/MjAxOTA4MzBfMjI3/MDAxNTY3MTQ1NTkyMzA4.cOC3DMGR7YEONe89SY5LcdDNHyBTewi78Rrke9qWMqog.aTpJIJ8VoPicLy-bBRWLEbCKP5VQnRPqWunv0PaPh00g.PNG.sonflo/%EA%B7%B8%EB%A6%BC2%EA%B2%BD%EC%A7%80%EC%95%84%EB%A6%AC%EC%9B%80.png?type=w800",
+            "displayLink": "m.blog.naver.com",
+            "snippet": "길동 경지아리움 오피스텔 아파트 분양/임대 : 네이버 블로그",
+            "htmlSnippet": "길동 <b>경지아리움</b> 오피스텔 아파트 분양/임대 : 네이버 블로그",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "http://m.blog.naver.com/sonflo/221633562924",
+                "height": 534,
+                "width": 800,
+                "byteSize": 557049,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXXCFmUAavCT1B0HMJyviVePqxuxWcS7NffMxz5VHY3vkKu9_gByzNfw&s",
+                "thumbnailHeight": 95,
+                "thumbnailWidth": 143
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "길동 경지 아리움 소형아파트 - YouTube",
+            "htmlTitle": "길동 <b>경지 아리움</b> 소형아파트 - YouTube",
+            "link": "https://i.ytimg.com/vi/0b--nKBtNFg/maxresdefault.jpg",
+            "displayLink": "www.youtube.com",
+            "snippet": "길동 경지 아리움 소형아파트 - YouTube",
+            "htmlSnippet": "길동 <b>경지 아리움</b> 소형아파트 - YouTube",
+            "mime": "image/jpeg",
+            "fileFormat": "image/jpeg",
+            "image": {
+                "contextLink": "https://www.youtube.com/watch?v=0b--nKBtNFg",
+                "height": 720,
+                "width": 1280,
+                "byteSize": 103005,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDjcdGi8vNaDHTDrdcgA8HgZisiehlWojC-X3t3iLvMc66zA7TLxCY8s&s",
+                "thumbnailHeight": 84,
+                "thumbnailWidth": 150
+            }
+        }
+    ]
+}

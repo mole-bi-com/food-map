@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Categories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="infowindow.css">
+</head>
+<body>
+<nav>
+    <div class="inner">
+        <div class="nav-container">
+            <h1 class="nav-title">맛집지도</h1>
+            <button class="nav-contact">Contact</button>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <section id="category">
+        <div class="inner">
+            <div class="category-container">
+                <h2 class="category-title">맛집지도 카테고리를 선택해보세요</h2>
+                <div class="category-list">
+                    <button class="category-item" id="korea">한식</button>
+                    <button class="category-item" id="china">중식</button>
+                    <button class="category-item" id="japan">일식</button>
+                    <button class="category-item" id="america">양식</button>
+                    <button class="category-item" id="wheat">분식</button>
+                    <button class="category-item" id="meat">구이</button>
+                    <button class="category-item" id="sushi">회/초밥</button>
+                    <button class="category-item" id="etc">기타</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 카테고리 -->
+    <div id="map" class="inner"></div>
+
+    <!-- 카카오지도 -->
+</main>
+<div id="map"></div>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3b53d1bd167fd929ffe4e1ceb5bbec6c&libraries=services
+"></script>
+<script src="script.js"></script>
+</body>
+</html>
